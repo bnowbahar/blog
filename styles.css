@@ -15,24 +15,30 @@
 .intro{
     font-size: 1.5em;
     padding: 10% 5%;
-}
+} 
 .image-gallery{
-    padding: 10%
+    background-color: #f7f7f7;
 }
 .image-container {
     border: 1px;
-    padding: 5%;
-    border: 1px solid black;
+    padding: 2%;
     display: inline-block;
+    background-color: white;
+    border-bottom: 1px solid #ccc;;
 }
-@media (max-width: 768px) {
+@media (min-width: 345px) {
     .image-container {
-        width: 20%
+        width: 100%
     }
 }
-@media (max-width: 1024px) {
+@media (min-width: 780px) {
     .image-container {
-        width: 30%
+        width: 45%;
+    }
+}
+@media (min-width: 1024px) {
+    .image-container {
+        width: 28%
     }
 }
 .image-preview img{
